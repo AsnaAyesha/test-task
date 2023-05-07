@@ -1,0 +1,147 @@
+
+.required::after{
+    content: " *";
+    color: red;
+    font-size: 20px;
+}
+
+.FormLabel1{
+    
+    margin-bottom: 10px;
+    width: 120px;
+    display: flex;
+    flex: none;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.FormLabel2{
+    
+    margin-bottom: 10px;
+    width: 80px;
+    display: flex;
+    flex: none;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top:6px;
+    font-weight: 500;
+}
+.FormLabel{
+    
+    margin-bottom: 10px;
+    width: 60px;
+    display: flex;
+    flex: none;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 6px;
+    font-weight: 500;
+}
+.FormLabel3{
+    
+    margin-bottom: 10px;
+    width: 60px;
+    display: flex;
+    flex: none;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 1px;
+    font-weight: 500;
+}
+.FormLabel4{
+    
+    margin-bottom: 10px;
+    width: 80px;
+    display: flex;
+    flex: none;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top:2px;
+    font-weight: 500;
+}
+h5{
+    text-decoration: underline;
+}
+
+.field_level_error{
+    color: red;
+}
+.display-next{
+    display: block;
+    float: right;
+}
+.form_boarder{
+    border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: #f5f3f3;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		        0px 3px 4px 0px rgb(0 0 0 / 14%), 
+                0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+.input-field{
+    margin-top: 10px;
+}
+.btn{
+   
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 10px 30px;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.title{
+    display: flex;
+    align-items: flex-start;
+}
+
+.column{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    float: left;
+    
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-text{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.btn-cancel{
+    color: #bb2929;
+    text-decoration: none;
+}
+
+.btn-cancel:hover{
+    color: #ffff;
+}
+.span-text{
+    text-decoration: underline;
+    font-size: small;
+}
+
+.btn-div{
+    margin-left: 300px;
+}

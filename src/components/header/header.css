@@ -1,0 +1,8 @@
+.LinkColor{
+    color: white;
+    text-decoration: none;
+   
+}
+.LinkColor:hover{
+    color: beige;
+}
